@@ -41,10 +41,8 @@ A Flyout can be less intrusive to the user experience than a Dialog and should b
 
 *Attributes*
 - `anchor` - string, the html id of the HTMLElement that the Flyout is attached to
-- `overlay` - boolean, specifies whether an overlay is drawn to dim the out of scope UI until the Flyout is dismissed
 - `light-dismiss` - boolean, specifies whether or not the flyout can be dismissed by clicking elsewhere or pressing `esc` key, defaults to true
-- `visible` - boolean, whether or not the Flyout is visible, defaults to undefined, as this is controlled by the author
-- `responsive` - boolean, whether or not the positioning is responsive based on available space, defaults to true, uses Anchored Region logic
+- `overlay` - boolean, specifies whether an overlay is drawn to dim the out of scope UI until the Flyout is dismissed
 - `position` - enum, where the tooltip should appear relative to its target, uses Anchored Region logic
     - top-centered
     - right-centered
@@ -59,6 +57,8 @@ A Flyout can be less intrusive to the user experience than a Dialog and should b
     - bottom-left-aligned
     - left-top-aligned
         - **ASK (1)**
+- `responsive` - boolean, whether or not the positioning is responsive based on available space, defaults to true, uses Anchored Region logic
+- `visible` - boolean, whether or not the Flyout is visible, defaults to undefined, as this is controlled by the author
 - `aria-labelledby` - optional based on implementation**
 - `aria-describedby` - optional based on implementation**
 - `aria-label` - optional, based on implementation**
